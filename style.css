@@ -1,0 +1,173 @@
+@charset "utf-8";
+.inner{
+  width: 1100px;
+}
+
+/* 各セッション題名 */
+.top{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+/* ヘッダー部分 */
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  position: fixed;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.box{
+  width: 1100px;
+  margin: auto;
+  padding: 15px;
+}
+.contact{
+  background-color: #6ba7eb;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 14px;
+  border: 0px;
+  transform: 0.3s
+}
+.contact:hover{
+  color: #333;
+}
+.submit{
+  padding: 15px;
+  color: #777;
+  height: 30px;
+  width: 30px;
+}
+
+/* 背景画像 */
+.image{
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.top_web{
+  padding-top: 400px;
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  text-align: center;
+}
+.sub_web{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 400px;
+}
+
+/* WORK欄 */
+.clearfix::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.work{
+  background-color: #e3f2fd;
+  text-align: center;
+}
+.work_txt_space{
+  width: 1100px;
+  margin: auto;
+}
+.pc_img{
+  padding: 50px 50px 0px 50px;
+  width: 250px;
+  float: inline-start;
+}
+.top_work{
+  padding-top: 70px;
+}
+.p_work{
+  margin-top: 35px;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+/* SKILLS欄 */
+.we_are_skills{
+  background-color: #fff;
+  text-align: center;
+}
+.top_skill{
+  padding-top: 50px;
+}
+.logo{
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+}
+.logo_bottom{
+  margin-bottom: 20px;
+}
+
+/* PLAN欄 */
+.select_plan{
+  background-color: #d0dfea;
+  text-align: center;
+}
+.top_plan{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.table_layout{
+  padding-bottom: 50px;
+}
+table{
+  margin: auto;
+  table-layout: fixed;
+  width: 1100px;
+}
+th{
+  padding: 10px;
+}
+tr:nth-child(2n+1) {
+  background-color: #f9f9f9;
+}
+tr:nth-child(2n) {
+  background-color: #e0efff;
+}
+tr:last-child {
+  margin-bottom: 50px;
+}
+td{
+  padding: 10px;
+  border-left: 2px solid #fff;
+}
+.solid{
+  border-right: 2px solid #fff;
+}
+.col{
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #6ba7eb;
+}
+
+/* 問い合わせロゴ */
+.info{
+ background-color: #e3f2fd; 
+ height: 400px;
+}
+
+/* フッター */
+footer{
+  background-color: #cfd8dc;
+}
+.footer_txt{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
