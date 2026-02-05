@@ -11,7 +11,6 @@
 /* ヘッダー部分 */
 .header{
   width: 100%;
-  height: 78px;
   background-color: #fff;
   position: fixed;
 }
@@ -20,7 +19,8 @@
   justify-content: space-between;
 }
 .box{
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 1100px;
   margin: auto;
 }
@@ -50,9 +50,9 @@
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
 .top_web{
+  display: block;
   padding-top: 400px;
   font-size: 65px;
   font-weight: 700;
@@ -185,4 +185,5 @@ footer{
   font-size: 10px;
   letter-spacing: 0.5px;
   text-align: right;
+
 }
