@@ -9,11 +9,6 @@
   letter-spacing: 10px;
 }
 /* ヘッダー部分 */
-.header{
-  width: 100%;
-  background-color: #fff;
-  position: fixed;
-}
 .flex{
   display: flex;
   justify-content: space-between;
@@ -187,3 +182,4 @@ footer{
   text-align: right;
 
 }
+
