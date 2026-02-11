@@ -52,7 +52,6 @@ main{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   padding-top: 400px;
   padding-bottom: 400px;
 }
@@ -84,12 +83,6 @@ main{
 .work_txt_space{
   padding-top: 50px;
 }
-.pc_fix{
-  float: left;
-}
-.pc_fix_clear{
-  clear: left;
-}
 .pc_img{
   width: 250px;
   margin-left: 100px;
@@ -108,10 +101,11 @@ main{
 
 /* SKILLS欄 */
 .we_are_skills{
-  padding-top: 50px;
-  padding-bottom: 20px;
   background-color: #fff;
   text-align: center;
+}
+.top_skill{
+  margin-top: 50px;
 }
 .logo{
   justify-content: center;
@@ -119,6 +113,10 @@ main{
   height: 300px;
   margin: 50px;
 }
+.logo_bottom{
+  margin-bottom: 20px;
+}
+
 /* PLAN欄 */
 .select_plan{
   background-color: #d0dfea;
