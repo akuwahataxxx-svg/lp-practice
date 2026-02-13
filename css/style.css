@@ -19,7 +19,11 @@ header{
   display: flex;
   justify-content: space-between;
 }
-.box{
+.header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer{
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -216,5 +220,3 @@ footer{
   letter-spacing: 0.5px;
   text-align: right;
 }
-
-
