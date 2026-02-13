@@ -1,138 +1,222 @@
-<!DOCTYPE html>
-<html lang="ja">
+@charset "utf-8";
+.inner{
+  width: 1100px;
+  margin: auto;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/base.css">
-  <script src="https://kit.fontawesome.com/8b167bd86f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <!-- ヘッダー部分 -->
-  <header>
-    <div class="box flex inner">
-      <i class="fas fa-archway fa-3x icon"></i>
-      <nav>
-        <ul class="flex">
-          <li><button class="contact">Contact</button></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <!-- 背景画像欄 -->
-    <section class="image">
-      <div class="inner">
-        <div class="top_web">WEB PRODUCTION COMPANY</div>
-        <div class="sub_web">DIRECTION,CONTENT MARKETING</div>
-      </div>
-    </section>
-    <!-- WORK欄 -->
-    <section class="work">
-      <div class="inner work_txt_space">
-        <!-- PC画像 -->
-        <div class="clearfix">
-          <div class="pc_fix pc_hiritu">
-            <img class="pc_img" src="./img/pc/pc.png">
-          </div>
-          <div class="pc_fix pc_txt_hiritu">
-            <div class="top top_work">WORK</div>
-            <div class="p_work">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SKILLS欄 -->
-    <section class="we_are_skills">
-      <div class="inner">
-        <div class="top top_skills">WE ARE SKILLS</div>
-        <ul class="skills_logo">
-          <li><a id="skills_1" href=""><img class="logo" src="./img/skills/skills_1.png"></a></li>
-          <li><a id="skills_2" href=""><img class="logo" src="./img/skills/skills_2.png"></a></li>
-          <li><a id="skills_3" href=""><img class="logo" src="./img/skills/skills_3.png"></a></li>
-          <li><a id="skills_4" href=""><img class="logo" src="./img/skills/skills_4.png"></a></li>
-          <li><a id="skills_5" href=""><img class="logo" src="./img/skills/skills_5.png"></a></li>
-          <li><a id="skills_6" href=""><img class="logo" src="./img/skills/skills_6.png"></a></li>
-        </ul>
-      </div>
-    </section>
-    <!-- PLAN欄 -->
-    <section class="select_plan">
-      <div class="inner">
-        <div class="top">SELECT PLAN</div>
-        <div class="table_layout">
-          <table class="inner">
-            <thead>
-              <tr>
-                <th scope="col" class="col solid">PLAN</th>
-                <th scope="col" class="col solid">BASIC PLAN</th>
-                <th scope="col" class="col solid">STANDARD PLAN</th>
-                <th scope="col" class="col">ENTERPRISE PLAN</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">PLICE</th>
-                <td>￥100,000</td>
-                <td>￥200,000</td>
-                <td>￥300,000</td>
-              </tr>
-              <tr>
-                <th scope="row">DELIVERY</th>
-                <td>Manuscript</td>
-                <td>HTML</td>
-                <td>Manuscript,HTML,PSD</td>
-              </tr>
-              <tr>
-                <th scope="row">ANALYSIS</th>
-                <td>〇</td>
-                <td>〇</td>
-                <td>〇</td>
-              </tr>
-              <tr>
-                <th scope="row">IMPROVEMENT</th>
-                <td>×</td>
-                <td>〇</td>
-                <td>〇</td>
-              </tr>
-              <tr>
-                <th scope="row">DESIGN</th>
-                <td>×</td>
-                <td>×</td>
-                <td>〇</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-    <!-- 問い合わせロゴ -->
-    <section class="info">
-      <div class="inner">
-        <div class="position">
-          <i class="fa-brands fa-facebook-f infoicon"></i>
-          <i class="fa-brands fa-dribbble infoicon"></i>
-          <i class="fa-brands fa-twitter infoicon"></i>
-          <i class="fa-solid fa-envelope infoicon"></i>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <!-- フッター -->
-    <div class="inner">
-      <div class="box">
-        <div class="footer_txt">Copyright(c)</div>
-      </div>
-    </div>
-  </footer>
-</body>
+/* 各セッション題名 */
+.top{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+/* ヘッダー部分 */
+header{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.icon{
+  color: #777;
+}
+.contact{
+  background-color: #6ba7eb;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 14px;
+  border: 0px;
+  transform: 0.3s
+}
+.contact:hover{
+  color: #333;
+}
+.submit{
+  padding: 15px;
+  color: #777;
+  height: 30px;
+  width: 30px;
+}
 
-</html>
+/* 背景画像 */
+main{
+  padding-top: 78px;
+}
+.image{
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+.top_web{
+  display: block;
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  text-align: center;
+}
+.sub_web{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* WORK欄 */
+.clearfix::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.work{
+  background-color: #e3f2fd;
+  text-align: center;
+  padding-top: 50px;
+}
+.pc_fix{
+  float: left;
+}
+.pc_fix_clear{
+  clear: left;
+}
+.pc_hiritu{
+  width: 40%;
+}
+.pc_txt_hiritu{
+  width: 60%;
+}
+.pc_img{
+  width: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: inline-start;
+}
+.top_work{
+  margin-top: 20px;
+}
+.p_work{
+  margin-top: 35px;
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+/* SKILLS欄 */
+.we_are_skills{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #fff;
+  text-align: center;
+}
+.top_skills{
+  margin-bottom: 50px;
+}
+.skills_logo{
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1100px;
+  margin: auto;
+}
+#skills_1{
+  list-style-image: url("./img/skills/skills_1.png");
+}
+.logo{
+  width: 300px;
+  height: 300px;
+  opacity: 0.8;
+  transition: 0.7s;
+}
+.logo:hover{
+  opacity: 1;
+}
+li {
+  list-style:none;
+  float:left;
+}
+/* PLAN欄 */
+.select_plan{
+  background-color: #d0dfea;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.table_layout{
+  padding-top: 50px;
+}
+table{
+  table-layout: fixed;
+}
+th{
+  padding: 10px;
+}
+tr:nth-child(2n+1) {
+  background-color: #f9f9f9;
+}
+tr:nth-child(2n) {
+  background-color: #e0efff;
+}
+tr:last-child {
+  margin-bottom: 50px;
+}
+td{
+  padding: 10px;
+  line-height: 26px;
+  border-left: 2px solid #fff;
+}
+.solid{
+  border-right: 2px solid #fff;
+}
+.col{
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #6ba7eb;
+}
+
+/* 問い合わせロゴ */
+.info{
+ background-color: #e3f2fd; 
+ padding-top: 200px;
+ padding-bottom: 200px;
+}
+.infoicon{
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 185px;
+}
+.position{
+  text-align: center;
+}
+i{
+  transition: 0.7s;
+}
+i:hover{
+  background-color: #fff;
+}
+/* フッター */
+footer{
+  background-color: #cfd8dc;
+}
+.footer_txt{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: right;
+}
