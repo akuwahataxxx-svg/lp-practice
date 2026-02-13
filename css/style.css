@@ -90,6 +90,12 @@ main{
 .pc_fix_clear{
   clear: left;
 }
+.pc_hiritu{
+  width: 440px;
+}
+.pc_txt_hiritu{
+  width: 660px;
+}
 .pc_img{
   width: 250px;
   margin-left: 100px;
@@ -107,7 +113,6 @@ main{
 }
 
 /* SKILLS欄 */
-
 .we_are_skills{
   padding-top: 50px;
   padding-bottom: 70px;
@@ -119,6 +124,7 @@ main{
 }
 .skills_br{
   display: grid;
+  gap: 100px;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1100px;
   margin: auto;
@@ -126,17 +132,11 @@ main{
 .logo{
   width: 300px;
   height: 300px;
-  margin-left: 100px;
   opacity: 0.8;
-}
-.logo:first-child,.logo:nth-child(4){
-  margin-left: 0px;
-}
-.logo:nth-child(4),.logo:nth-child(5),.logo:nth-child(6){
-  margin-top: 100px;
 }
 .logo:hover{
   opacity: 1;
+  transition: 0.7s;
 }
 /* PLAN欄 */
 .select_plan{
@@ -194,7 +194,10 @@ td{
 .position{
   text-align: center;
 }
-
+i:hover{
+  transition: 0.7s;
+  background-color: #fff;
+}
 /* フッター */
 footer{
   background-color: #cfd8dc;
