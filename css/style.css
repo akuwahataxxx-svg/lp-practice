@@ -134,10 +134,10 @@ main{
   width: 300px;
   height: 300px;
   opacity: 0.8;
+  transition: 0.7s;
 }
 .logo:hover{
   opacity: 1;
-  transition: 0.7s;
 }
 li {
   list-style:none;
@@ -199,8 +199,10 @@ td{
 .position{
   text-align: center;
 }
-i:hover{
+i{
   transition: 0.7s;
+}
+i:hover{
   background-color: #fff;
 }
 /* フッター */
@@ -214,4 +216,5 @@ footer{
   letter-spacing: 0.5px;
   text-align: right;
 }
+
 
