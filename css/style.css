@@ -14,18 +14,12 @@ header{
   width: 100%;
   background-color: #fff;
   position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .flex{
   display: flex;
   justify-content: space-between;
-}
-.header{
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.footer{
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 .icon{
   color: #777;
@@ -212,6 +206,8 @@ i:hover{
 /* フッター */
 footer{
   background-color: #cfd8dc;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .footer_txt{
   padding-top: 20px;
@@ -220,3 +216,4 @@ footer{
   letter-spacing: 0.5px;
   text-align: right;
 }
+
