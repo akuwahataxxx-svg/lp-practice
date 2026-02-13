@@ -91,10 +91,10 @@ main{
   clear: left;
 }
 .pc_hiritu{
-  width: 440px;
+  width: 40%;
 }
 .pc_txt_hiritu{
-  width: 660px;
+  width: 60%;
 }
 .pc_img{
   width: 250px;
@@ -137,6 +137,10 @@ main{
 .logo:hover{
   opacity: 1;
   transition: 0.7s;
+}
+li {
+  list-style:none;
+  float:left;
 }
 /* PLAN欄 */
 .select_plan{
@@ -187,8 +191,8 @@ td{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 185px;
 }
 .position{
