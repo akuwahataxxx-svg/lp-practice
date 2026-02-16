@@ -210,15 +210,62 @@ i:hover{
   background-color: #fff;
 }
 /* フッター */
-footer{
+.footer{
   padding-top: 20px;
   padding-bottom: 25px;
   background-color: #cfd8dc;
 }
 .footer_txt{
-  padding-top: 20px;
-  padding-bottom: 25px;
   font-size: 10px;
   letter-spacing: 0.5px;
   text-align: right;
+}
+
+/* TAB用 */
+@media screen and (max-width: 1199px) {
+  .inner{
+    width: 97%;
+  }
+  /* 背景画像_TAB */
+  .image{
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
+  .top_web{
+    font-size: 50px;
+    font-weight: 550;
+  }
+  .sub_web{
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  /* WORK欄_TAB */
+  .work{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .top_work{
+    margin-top: 0;
+  }
+  .pc_img{
+    float: none;
+  }
+  .top_work{
+    padding-top: 20px;
+  }
+  .pc_hiritu{
+    width: 100%;
+  }
+  .pc_txt_hiritu{
+    width: 100%;
+  }
+  /* SKILL欄_TAB */
+  .skills_logo{
+    gap: 0px;
+    grid-template-columns: initial;
+  }
+  li:nth-child(4){
+    margin-top: 80px;
+  }
 }
