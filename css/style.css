@@ -261,11 +261,12 @@ i:hover{
   li{
     line-height: 0em;
   }
-  li:nth-child(3n+1){
+  .skills_img:nth-child(3n+1){
     margin-top: 80px;
   }
   .position{
     font-size: 0;
   }
 }
+
 
